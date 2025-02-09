@@ -1,0 +1,24 @@
+{
+  "name": "lambda-rest-api",
+  "version": "1.0.0",
+  "description": "This project is a REST API built with Node.js and containerized using Docker. It leverages AWS Lambda for serverless functions, AWS RDS for managed relational database services, and AWS API Gateway to expose secure endpoints. A Postman collection is provided to facilitate testing and documentation of the API endpoints.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarunchopra1012/lambda-rest-api.git"
+  },
+  "keywords": [],
+  "author": "Tarun Chopra",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tarunchopra1012/lambda-rest-api/issues"
+  },
+  "homepage": "https://github.com/tarunchopra1012/lambda-rest-api#readme",
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}
